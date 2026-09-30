@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registratration From</h1>
+    
+    <p>please fill the form carefully</p>
+          
+    <form action="nature.jpg"  method="post">
+        <fieldset>
+        <table>
+           <legend>Personal Information
+               <tr>
+                <td><label for="fname">Full Name:</label></td>
+                <td><input type="text" id="fname" name="full name" placeholder="Enter your full name"></td>
+               </tr>
+
+               <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" name="email" placeholder="Enter your email name"></td>
+               </tr>
+
+               <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"></td>
+               </tr>
+
+               <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+               </tr>
+
+               <tr>
+                <td><label for="gender">Gender:</label>
+                    <td><input type="radio" id="gender" name="gender"> <label for="gender">Male</label>
+                    <input type="radio" id="gender" name="gender"> <label for="gender">Female</label>
+                    <input type="radio" id="gender" name="gender"> <label for="gender">Other</label></td>
+                
+               </tr>
+
+               <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="+91 8976543210"></td>
+               </tr>
+                
+               <tr>
+                <td><label for="photo">Profile Photo:</label></td>
+                <td><input type="file" id="photo" name="photo"></td>
+               </tr>
+
+
+               <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" min="18" max="30" id="photo" name="photo"></td>
+               </tr>
+
+
+               <tr>
+                <td><label for="web">Website:</label></td>
+                <td><input type="text" id="web" name="web" placeholder="https://example.com"></td>
+               </tr>
+           </td>
+          </tr> 
+        </table>
+        </fieldset>
+         
+<fieldset>
+    <legend>Address Details</legend>
+
+    <table>
+        <tr>
+            <td>
+                <label for="address">Address Details:</label>
+            </td>
+            <td>
+                <textarea name="address" id="address" cols="30" rows="3" placeholder="Enter your address"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="country">Country:</label>
+            </td>
+            <td>
+                <select name="country" id="country">
+                    <option value="">--Select Country--</option>
+                    <option value="india">INDIA</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">CANADA</option>
+                    <option value="uk">UK</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="state">State:</label>
+            </td>
+            <td>
+                <select name="state" id="state">
+                    <option value="">--Select State--</option>
+                    <option value="mp">Madhya Pradesh</option>
+                    <option value="up">Uttar Pradesh</option>
+                    <option value="mh">Maharashtra</option>
+                    <option value="rajasthan">Rajasthan</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="city">City:</label></td>
+            <td><select name="city" id="city">
+                <option value="">--Select City--</option>
+                <option value="bhopal">Bhopal</option>
+                <option value="indore">Indore</option>
+                <option value="devas">Devas</option>
+                <option value="betul">Betul</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td><label for="pin">Pin Code:</label></td>
+            <td><input type="text" id="pin" name="pin code" placeholder="Enter pin code"></td>
+        </tr>
+    </table>
+</fieldset>
+
+    <fieldset>
+        <legend>Course Selection</legend>
+        <table>
+            <tr>
+                <td><label for="course">Select your preferred courses:</label>
+                <input type="checkbox" id="course">
+                <label for="course">HTML</label>
+                </td>
+
+                <td>
+                <input type="checkbox" id="course">
+                <label for="course">CSS</label>
+                </td>
+
+
+                <td>
+                <input type="checkbox" id="course">
+                <label for="course">JavaScript</label>
+                </td>
+
+                <td>
+                <input type="checkbox" id="course">
+                <label for="course">Python</label>
+                </td>
+
+                <td>
+                <input type="checkbox" id="course">
+                <label for="course">Java</label>
+                </td>
+
+                <td>
+                <input type="checkbox" id="course">
+                <label for="course">C++</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="subject">Select your favorite subject:</label></td>
+                <td><select name="subject" id="subject">
+                    <option value="">-- Select Subject--</option>
+                    <option value="b.tech">B.Tech</option>
+                    <option value="mca">MCA</option>
+                    <option value="bca">BCA</option>
+                    <option value="mba">MBA</option>
+                </select></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Additional Information</legend>
+
+        <table>
+
+            <tr>
+                <td><label for="time">Preferred Time :</label></td>
+                <td><input type="time" id="time" name="time"></td>
+               </tr>
+                
+               <tr>
+                <td><label for="color">Color Choice :</label></td>
+                <td><input type="color" id="color" name="color"></td>
+               </tr>
+
+
+               <tr>
+                <td><label for="exp">Range (Experience):</label></td>
+                <td><input type="range" min="0" max="10" id="exp" name="exp"> 0-10 years</td>
+               </tr>
+             
+               <tr>
+                <td><label for="resume">Upload Resume:</label></td>
+                <td><input type="file" min="0" max="10" id="exp" name="exp"> 0-10 years</td>
+               </tr>
+        </table>
+    </fieldset>
+
+    <h1>Education Details</h1>
+    <table border="1">
+        <tr>
+           
+            <th>S.No</th>
+            <th>Institude Name</th>
+            <th>Degree</th>
+            <th>Year</th>
+            <th>Percentage</th>
+            
+        </tr>
+      
+     
+        <tr>
+            <td>1</td>
+            <td>ABC School</td>
+            <td>10th</td>
+            <td>2019</td>
+            <td>92%</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>XYZ College</td>
+            <td>12th</td>
+            <td>2021</td>
+            <td>88%</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>ABC University</td>
+            <td>B.Tech</td>
+            <td>2025</td>
+            <td>85%</td>
+        </tr>
+       
+    </table>
+
+    <h1>Hobbies</h1>
+        <ul>
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Playing</li>
+            <li>Travelling</li>
+        </ul>
+    
+    <h1>Instructions</h1>
+         <ol>
+            <li>Fill all the fields.</li>
+            <li>Upload a recent photo.</li>
+            <li>Submit the form</li>
+         </ol>
+
+    <table>
+        <tr>    
+        <td>
+            <label for="progress"><strong>Progress</strong></label> 
+            <progress id="progress"   value="70" max="100"  ></progress>70% 
+        </td>     
+   </tr> 
+
+   <tr>
+       <td>  
+           <label for="skill"><strong>Skills Meater</strong></label>
+          <meter value="8" max="10" ></meter>  8 out of 10
+       </td>
+   </tr> 
+
+   <tr>
+       <td><label for="img"><b>Sample Image</b></label></td>
+    </tr>
+    <tr>  
+       <td> 
+        <figure>
+            <img src="nature.jpg" alt="nature image" id="img" width="200" height="80">
+            <figcaption> this is a beautifull image</figcaption>
+        </figure>
+       </td> 
+   </tr>
+
+   <tr>
+    <td><label for="audio "><b>Audio Sample</b></label></td>
+    <td><audio id="audio" controls="controls" loop="loop" >
+        <source src="audio.mp3" >
+    </audio></td>
+   </tr>
+
+
+   <tr>
+    <td><label for="vedio"><b>Video Sample</b></label></td>
+    <td><video src="vedio.mp4" width="200" height="80"></video></td>
+   </tr>
+
+   <tr>
+    <td><button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+   </tr>
+    </table>
+
+    </form>
+</body>
+</html>
